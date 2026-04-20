@@ -14,8 +14,11 @@ function App() {
   return (
     <>
       <Header />
-      <ProfileCard />
-      <Skills />
+      <div className='flex items-center justify-center gap-20'>
+        <ProfileCard />
+        <Skills />
+      </div>
+     
       <Footer />
     </>
   )
